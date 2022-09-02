@@ -28,27 +28,6 @@ body {
 div.b {
   flex-grow:2;
 }
-/* .a {
-  min-width: 100px;
-  min-height: 300px;
-  display:flex;
-  background-color: blue;
-  padding: 1em;
-}
-.b {
-  min-width:80%;
-  min-height: 450px;
-  display:flex;
-  background-color: black;
-  padding: 1em;
-}
-.c {
-  min-width:20%;
-  min-height: 100px;
-  background-color:greenyellow;
-  display:flex;
-  padding: 1em;
-} */
 @media (min-width:600px) {
   .container {
     flex-direction:row;
