@@ -12,32 +12,36 @@ body {
 }
 
 .container {
-  padding:2em;
+  padding:1em;
   display:flex;
   justify-content:space-between;
   flex-direction: row;
   flex-wrap:wrap;
   flex-grow: 1;
-  gap:1.2em;
+  gap:1em;
 }
 .a {
   flex:1 1 100%;
+
 }
 .b {
-  flex-grow:2;
+  flex-grow:3;
   flex:1 1 75%;
 }
 .f {
-  flex: 1 1 25%
+  flex: 1 1 25%;
+  justify-items:right;
 }
 * {
   border:1px solid red;
 }
 .c, .d, .e {
-  flex-grow:1;
+  min-width:20%;
+  max-height:20vh;
 }
 @media (min-width:600px) {
     .b, .f {
-      width:100%
+      width:100%;
     }
+
 }

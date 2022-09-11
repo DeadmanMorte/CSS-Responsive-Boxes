@@ -26,8 +26,13 @@ body {
   align-items: center;
 }
 div.b {
-  flex-grow:2;
+  flex-grow:3;
+  min-height:50%;
 }
+div.a {
+  max-height:35%;
+}
+
 @media (min-width:600px) {
   .container {
     flex-direction:row;
